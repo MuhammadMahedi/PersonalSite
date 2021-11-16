@@ -1,36 +1,47 @@
 
 body{
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .top{
-    
-   
-   
+    height: 600px;
+    background-image: url('personal-website/header-bg.png');
+    background-size: 100%;
+    padding-top: 8%;
+     
+    }
+    h4{
+        font-size: 30px;
+    }
+ h1{
+     font-size: 50px;
+ }
 
-}
 .text-pink{
     color:  rgb(196, 60, 83);
 }
 .half-width{
-    border: 1px solid black;
+    
     float: left;
-   
     height: 500px;
     
 }
-img{
+.half-width img{
     height: 100%;
+    
    
 }
 #topleft{
-    padding-left: 10%;
-    width: 43%;
+    
+    padding-left: 15%;
+    width: 40%;
+    
    
 }
 #topright{
     padding-left: 0%;
     width: 45%;
-   
+  
 }
 .button{
     text-decoration: none;
@@ -38,3 +49,71 @@ img{
     background-color: rgb(196, 60, 83);
     padding: 10px 30px;
 }
+
+
+.mid{
+    height: 600px;
+    background-image: url('personal-website/biography-bg.png');
+    background-size: 100%;
+   
+     
+    }
+#midleft{
+    padding-top: 8%;
+    padding-left: 15%;
+    width: 35%;
+
+}
+#midright{
+    
+    padding-top: 5%;
+    width: 45%;
+  
+}
+
+.latestworks{
+   
+    height: 500px;
+    padding-top: 4%;
+    margin-left: 3%;
+    background-image: url('personal-website/latest-work-bg.png');
+    background-size: 100%;
+    
+   
+     
+}
+.third{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+.third img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+}
+name{
+    font-size: 15px;
+    font-weight: 700;
+}
+span{
+    font-size: 12px;
+}
+footnote{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bot{
+    background-color: rgb(196, 60, 83);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding-top: 10px;
+    padding-bottom: 1px;
+   
+}
+
