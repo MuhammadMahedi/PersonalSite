@@ -94,6 +94,9 @@ body{
 
 .footer{
     text-align: center;
+    height: 600px;
+    background-image: url(personal-website/footer-bg.png);
+    background-size: 100%;
 }
 name{
     font-size: 15px;
