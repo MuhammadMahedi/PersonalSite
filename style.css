@@ -1,0 +1,40 @@
+
+body{
+    margin: 0;
+}
+.top{
+    
+   
+   
+
+}
+.text-pink{
+    color:  rgb(196, 60, 83);
+}
+.half-width{
+    border: 1px solid black;
+    float: left;
+   
+    height: 500px;
+    
+}
+img{
+    height: 100%;
+   
+}
+#topleft{
+    padding-left: 10%;
+    width: 43%;
+   
+}
+#topright{
+    padding-left: 0%;
+    width: 45%;
+   
+}
+.button{
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(196, 60, 83);
+    padding: 10px 30px;
+}
